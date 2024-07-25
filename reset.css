@@ -1,0 +1,37 @@
+/* selector universal para aplicar a todos los elementos*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aplicar un estilo minimo al cuerpo del documento*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial, sans-serif;
+}
+
+/* corregir estilos para los elementos de lista*/
+ul, ol{
+    list-style: none;
+}
+
+/* establecer estilos básicos para los elementos de texto*/
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+/* establecer estilos básicos para los enlaces*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* establecer estilos básicos para las imagenes*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+
